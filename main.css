@@ -1,0 +1,128 @@
+body {
+  font-family: " Open Sans", Helvetica, sans-serif;
+  font-weight: bold;
+font-weight: normal;
+font-style: normal;
+  font-size: 16px;
+  line-height: 1.42em;
+  background: #001821;
+  color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3. h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+.content {
+  margin: 0 auto;
+  width: 1042px;
+}
+.header {
+  height: 124px;
+  position: relative;
+  margin-bottom: 131px;
+ 
+
+}
+
+.logo {
+position: absolute;
+display: block;
+left: 0px;
+}  
+
+.logo__pic {
+position: absolute;
+top: 29px;
+}
+
+.menu1 {
+  position: absolute;
+  left: 165px;
+  top: 42px;
+ 
+}
+
+.contacts {
+position: absolute;
+height: 35px;
+top: 27px;
+right: 0;
+
+}
+
+.menu1__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+
+}
+
+.menu1__link {
+  
+  font-size: 14px;
+  line-height: 19px;
+ text-decoration: none;
+ width: 56px;
+height: 19px;
+}
+
+.menu1__link:hover {
+  color: red;
+}
+
+.contacts__tel {
+font-size: 26px;
+line-height: 36px;
+text-decoration: none;
+margin-bottom: 4px;
+
+}
+.contacts__work {
+  position: absolute;
+  right: 0px;
+  line-height: 20px;
+  font-size: 13px;
+  text-decoration-line: underline;
+  
+}
+
+.preview {
+  width: 520px;
+  height: 200;
+}
+
+.preview__title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+.preview__desc {
+  font-size: 18px;
+  margin-bottom: 34px;
+}
+
+.button { 
+  background:#F5170E;
+  border-radius: 35px;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 18px 40px;
+  text-decoration: none;
+}
